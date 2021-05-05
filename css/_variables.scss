@@ -1,0 +1,57 @@
+////////////////////////
+// FONT COLORS
+////////////////////////
+$blue: #286E99;
+$darkGray: #292526;
+$gray: #999;
+$black: #000;
+$white: #FFF;
+
+////////////////////////
+// FONTS
+////////////////////////
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Roboto+Mono:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+$openSans: 'Open Sans', arial, sans-serif;
+$robotoMono: 'Roboto Mono', monospace;
+
+$XLdesktopFont: 1.25em;
+$desktopFont: 1em;
+$tabletFont: 90em;
+$mobileFont: 85em;
+
+$xlLH: 2.15;
+$desktopLH: 1.75;
+$tabletLH: 1.25;
+$mobileLH: 1;
+
+////////////////////////
+// PADDING & MARGIN:
+////////////////////////
+$XLdesktopMg: 1.15em;
+$desktopMg: 1em;
+$tabletMg: .90em;
+$mobileMg: .85em;
+
+$XLdesktopPd: 1.10rem;
+$desktopPd: 1rem;
+$tabletPd: .95rem;
+$mobilePd: .80rem;
+
+////////////////////////
+// MEDIA QUERIES
+////////////////////////
+$breakpoint-xs: 750px;
+$breakpoint-s: 900px;
+$breakpoint-m: 1000px;
+$breakpoint-l: 1300px;
+
+////////////////////////
+// EXTENSIONS
+////////////////////////
+%transitions {
+    -webkit-transition: all 0.3s 0s ease-in-out;
+    -moz-transition: all 0.3s 0s ease-in-out;
+    -o-transition: all 0.3s 0s ease-in-out;
+    transition: all 0.3s 0s ease-in-out;
+}

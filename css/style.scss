@@ -1,0 +1,19 @@
+@import 'variables';
+
+* {
+    border: 1px solid gold;
+}
+
+body {
+    background: $white;
+    font-size: $desktopFont;
+    line-height: $desktopLH;
+    font-family: $openSans;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $robotoMono;
+    text-transform: uppercase;
+}
